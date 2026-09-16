@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { navLinks } from "../data/index"
 import BookTableButton from "./BookTableButton"
-import { MenuIcon } from "lucide-react"
+import { MenuIcon, X } from "lucide-react"
 
 
 const Navbar = () => {
@@ -52,6 +52,7 @@ const Navbar = () => {
     {/* Mobile Menu*/}
     <div className={`flex flex-col items-center justify-center p-8 fixed z-20 inset-0 bg-foreground/60 backdrop-blur-md transition-tranform duration-300 
         ${isMobileOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+           <X className="absolute top-4 right-4" size={40} onClick={()=> setIsMobileOpen(false)} />
         <div className="flex flex-col items-center space-y-6 font-medium">
             {
                 navLinks.map((navLink, i) => {
