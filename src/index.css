@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+    /* Fonts */
+    --font-geist: "Geist Variable", sans-serif;
+    --font-urbanist: "Urbanist Variable", sans-serif;
+
+    /* Colors */
+    --color-background: #0B0F0D;
+    --color-surface: #14201B;
+    --color-primary: #1B4332;
+    --color-primary-hover: #2D6A4F;
+    --color-highlight: #00ff80;
+    --color-accent: #E9C46A;
+    --color-foreground: #F1FAEE;
+    --color-muted: #8D9C93;
+
+    /* Border radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-full: 9999px;
+
+    /* Spacing (extends default scale, doesn't replace it) */
+    --spacing-section: 6rem;
+    --spacing-card: 1.5rem;
+
+    /* Box shadow */
+    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 24px rgba(116, 198, 157, 0.15);
+
+    /* Letter spacing */
+    --tracking-tight: -0.02em;
+    --tracking-wide: 0.04em;
+}
+
+@layer base {
+    body {
+        @apply font-urbanist bg-foreground text-primary;
+    }
+}
+
+.nav-link {
+  @apply relative text-primary before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:bg-primary before:w-0 hover:before:w-full before:transition-[width] before:duration-300;
+}
