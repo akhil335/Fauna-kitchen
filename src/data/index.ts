@@ -2,10 +2,10 @@ import type { AboutPoints, BookingStepsProp, CTATypes, Dishes, faqsType, testimo
 import type { NavLink } from "../types/index";
 
 export const avatars: string[] = [
-    "src/assets/user-1.jpeg",
-    "src/assets/user-2.jpeg",
-    "src/assets/user-3.jpeg",
-    "src/assets/user-4.jpeg"
+    "assets/user-1.jpeg",
+    "assets/user-2.jpeg",
+    "assets/user-3.jpeg",
+    "assets/user-4.jpeg"
 ]
 
 export const statsData = [
@@ -29,49 +29,49 @@ export const statsData = [
 export const dishes: Dishes[] = [
     {
         id: "01",
-        img: "src/assets/dish1.png",
+        img: "assets/dish1.png",
         title: "Grilled Chicken Alfredo",
         price: "$24"
     },
     {
         id: "02",
-        img: "src/assets/dish2.png",
+        img: "assets/dish2.png",
         title: "Mushroom Risotto",
         price: "$22"
     },
     {
         id: "03",
-        img: "src/assets/dish3.png",
+        img: "assets/dish3.png",
         title: "Caprese Salad",
         price: "$16"
     },
     {
         id: "04",
-        img: "src/assets/dish4.png",
+        img: "assets/dish4.png",
         title: "Spaghetti & Meatballs",
         price: "$23"
     },
     {
         id: "05",
-        img: "src/assets/dish5.png",
+        img: "assets/dish5.png",
         title: "Caesar Salad",
         price: "$15"
     },
     {
         id: "06",
-        img: "src/assets/dish6.png",
+        img: "assets/dish6.png",
         title: "Grilled Atlantic Salmon",
         price: "$29"
     },
     {
         id: "07",
-        img: "src/assets/dish7.png",
+        img: "assets/dish7.png",
         title: "Grilled Ribeye Steak",
         price: "$39"
     },
     {
         id: "08",
-        img: "src/assets/dish8.png",
+        img: "assets/dish8.png",
         title: "Seafood Linguine",
         price: "$29"
     }
@@ -238,8 +238,8 @@ export const aboutPoints: AboutPoints[] = [
 ]
 
 export const floatingDishes: CTATypes[] = [
-    { src: "src/assets/dish1.png", alt: "dish1", className: "top-6 left-4 md:top-10  md:left-[6%]  lg:left-[10%]" },
-    { src: "src/assets/dish2.png", alt: "dish2", className: "bottom-6 left-6 md:bottom-10  md:left-[10%]  lg:left-[14%]" },
-    { src: "src/assets/dish3.png", alt: "dish3", className: "top-6 right-4 md:top-10  md:right-[6%]  lg:right-[10%]" },
-    { src: "src/assets/dish4.png", alt: "dish4", className: "bottom-6 right-6 md:bottom-10  md:right-[6%]  lg:right-[10%]" },
+    { src: "assets/dish1.png", alt: "dish1", className: "top-6 left-4 md:top-10  md:left-[6%]  lg:left-[10%]" },
+    { src: "assets/dish2.png", alt: "dish2", className: "bottom-6 left-6 md:bottom-10  md:left-[10%]  lg:left-[14%]" },
+    { src: "assets/dish3.png", alt: "dish3", className: "top-6 right-4 md:top-10  md:right-[6%]  lg:right-[10%]" },
+    { src: "assets/dish4.png", alt: "dish4", className: "bottom-6 right-6 md:bottom-10  md:right-[6%]  lg:right-[10%]" },
 ];

@@ -26,7 +26,7 @@ const BookingProcess = () => {
                     "We had an amazing evening with delicious food, excellent service, and a warm atmosphere. We'll definitely visit again."
                 </p>
                 <Animated className="flex gap-4 items-center mt-4.5">
-                    <img className="cursor-pointer size-13 rounded-full" src={"src/assets/user-2.jpeg"} alt="guest" />
+                    <img className="cursor-pointer size-13 rounded-full" src={"assets/user-2.jpeg"} alt="guest" />
                     <p className="font-medium text-xl">Sofia Martinez</p>
                 </Animated>
             </div>

@@ -5,7 +5,7 @@ import { avatars } from "../data"
 
 const Hero = () => {
   return (
-    <section id="home" className="flex flex-col items-center justify-center min-h-screen bg-[url(../src/assets/heroBanner.png)] bg-center bg-no-repeat bg-cover px-4 pt-20">
+    <section id="home" className="flex flex-col items-center justify-center min-h-screen bg-[url(assets/heroBanner.png)] bg-center bg-no-repeat bg-cover px-4 pt-20">
         <Animated y={-20} delay={0.2}>
             <p className="text-muted font-semibold text-center">WHERE FLAVOR MEETS ELEGANCE</p>
         </Animated>

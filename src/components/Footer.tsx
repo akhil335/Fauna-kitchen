@@ -88,8 +88,8 @@ const Footer = () => {
         </div>
 
         {/* Watermark logo */}
-        <div className="absolute inset-0 text-center select-none -z-1 pointer-events-none">
-            <span className="text-[300px] font-geist rotate-12 font-semibold text-primary/10 tracking-wide">Fauna</span>
+        <div className="absolute bottom-0 md:inset-0 text-center select-none -z-1 pointer-events-none">
+            <span className="text-[100px] md:text-[300px] font-geist font-semibold text-primary/10 tracking-wide">Fauna</span>
         </div>
     </section>
   )
