@@ -1,5 +1,5 @@
 // components/LenisScroll.tsx
-import ReactLenis, { useLenis } from 'lenis/react'
+import ReactLenis from 'lenis/react'
 
 const LenisScroll = () => {
 
