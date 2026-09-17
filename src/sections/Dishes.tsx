@@ -11,7 +11,7 @@ const Dishes = () => {
   const [rotate, setRotate] = useState<RotateTypes>({})
    
   return (
-    <section id="dishes" className="pt-44">
+    <section id="dishes" className="mt-44">
         <div className="text-center mb-16">
             <Animated delay={0.2}>
                 <p className="font-medium uppercase mb-3.5">Chef's signature selection</p>
